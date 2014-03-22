@@ -9,4 +9,7 @@ import mgr.test.entity.TestBean;
 public interface TestMapper {
 
 	List<TestBean> testInfo(Map mp);
+	void insertInfo(Map mp);
+	void deleteInfo(Map mp);
+	void updateInfo(Map mp);
 }

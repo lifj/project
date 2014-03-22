@@ -11,4 +11,15 @@
    		select id,name from mvc_test limit 0,5
    </select>	
    
+   <insert id="insertInfo">
+   		insert into mvc_test (name) values ('test')
+   </insert>
+   
+   <delete id="deleteInfo">
+   		delete from mvc_test where id=1
+   </delete>
+   
+   <update id="updateInfo">
+   		update mvc_test set name='testUpdate' where id=1
+   </update>
 </mapper>

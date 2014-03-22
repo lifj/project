@@ -26,6 +26,9 @@ public class TestService {
 	
 	public List<TestBean> getTestInfo(){
 		 Map mp = new HashMap();
-		return testMapper.testInfo(mp);
+		 testMapper.deleteInfo(mp);
+		 testMapper.updateInfo(mp);
+		 testMapper.insertInfo(mp);
+		 return testMapper.testInfo(mp);
 	} 
 }

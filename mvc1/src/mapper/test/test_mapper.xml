@@ -8,7 +8,7 @@
   	</resultMap>
    
    <select id="testInfo" resultMap="test_Map">
-   		select id,name from bugs limit 0,5
+   		select id,name from mvc_test limit 0,5
    </select>	
    
 </mapper>
